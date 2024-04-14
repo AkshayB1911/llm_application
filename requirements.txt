@@ -1,1 +1,16 @@
-taipy==3.0.0
+libraries required to run the interface
+
+google generative ai:
+pip install generative-ai
+
+ipython:
+pip install ipython
+
+customtkinter:
+pip install customtkinter
+
+pathlib:
+pip install pathlib
+
+textwrap:
+pip install textwrap3

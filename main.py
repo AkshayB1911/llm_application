@@ -10,7 +10,7 @@ def to_markdown(text):
     text = text.replace('•', '  *')
     return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
-gemini_api_key = "AIzaSyBYaZjmPH_PlD-uFHv2oLLFhLVETXhMX58"
+gemini_api_key = "AIzaSyD9gHpy4wQbYKeoccaDvULBg8-h-rxrbcQ"
 genai.configure(api_key=gemini_api_key)
 
 model = genai.GenerativeModel('gemini-pro')

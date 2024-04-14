@@ -109,7 +109,7 @@ def addskill():
 label=CTkTextbox(master=app,width=1080,height=700)
 label.place(relx=0.22,rely=0.1)    
 
-s_button=CTkButton(master=app,text="SEARCH SKILL",command=addskill,width=200,height=40,fg_color="green",hover_color="dark green")
+s_button=CTkButton(master=app,text="ADD SKILL",command=addskill,width=200,height=40,fg_color="green",hover_color="dark green",text_color="brown")
 
 s_button.place(relx=0.02,rely=0.1,anchor="nw")
 
